@@ -1,0 +1,16 @@
+{
+  "name": "studdy",
+  "version": "0.0.1",
+  "description": "group study web app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hello",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "~2.1.1",
+    "sequelize": "~1.7.0",
+    "underscore": "~1.6.0"
+  }
+}
