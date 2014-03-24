@@ -7,6 +7,7 @@ var httpHelper = require('./helpers/HttpHelpers');
 
 //== Controllers ==========================================
 var Groups = require('./controllers/GroupsController');
+var Users = require('./controllers/UsersController');
 
 //== Server Configuration =================================
 var ip = '127.0.0.1';
@@ -14,7 +15,8 @@ var port = 8000;
 
 //== Router ===============================================
 var routes = {
-  '/groups': Groups.controller
+  '/groups': Groups.controller,
+  '/users': Users.controller
 };
 
 var router = function (req, res) {

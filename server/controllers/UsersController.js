@@ -2,4 +2,4 @@
 
 var Controller = require('./Controller');
 
-exports.controller = Controller.create('Group');
+exports.controller = Controller.create('User');
